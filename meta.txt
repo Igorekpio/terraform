@@ -1,0 +1,7 @@
+users:
+  - name: igorek
+    groups: sudo
+    shell: /bin/bash
+    sudo: ["ALL=(ALL) NOPASSWD:ALL"]
+    ssh-authorized-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII5IaOPt8mvBtt6KIKEvtu++Z3PaxNxJnSnCNxiibBIP igorek
